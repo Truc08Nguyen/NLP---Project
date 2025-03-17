@@ -34,8 +34,9 @@ Record a short video of your project to display here on your README. You can do 
 
 ## Project Description
 
-Write a description of the goal and/or problem that your application. Include descriptions of what text is being analyzed, either if its text files you are using to interpret text an how the user interacts with your project.
+The goal of this project is to create a natural language proceesing application that allows users to search for books by an author’s name. The application will read and process author and book data from text files, allowing it to efficiently retrieve relevant book titles in response to user inputs. By using NLP techniques, the system will interpret user input accurately, handle variations in phrasing, and return results that match the given author.
 
 ## NLP Techniques
 
-Write a description of what natural lanugage technique (NLP) you implemented in your project. State which methods in your project are associated with this, and a brief explanation of how those methods word and how they are necessary in the NLP technique. 
+Keyword recognition:
+- The program uses string comparison to match user input with the author list, ensuring accurate author and book recognition. This also helps processes the user input without worrying about the capitalization. After extracting the author's name, the program searches for it in the list of authors. If a match is found, it displays the books written by that author.
